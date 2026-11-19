@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+dist/
+build/
+.dart_tool/
+.flutter-plugins*
+__pycache__/
+.venv/
+venv/
+*.pyc
+*.exe
+*.log
+coverage/
+.idea/
+.vscode/
+.DS_Store
+
+# Security and local backups
+backups/
+*.dump
+*.sql.gz
+*.pem
+*.key
+
+# Local AI coding assistant state
+.refact/
+
+# Editor backups and temporary files
+*.bak
+*.bak_*
+*.backup-*
+*~
+*.tsbuildinfo
